@@ -9,7 +9,7 @@ pipeline {
         stage ('code cloning') {
             steps {
                 git branch: 'main',
-                    url: ''
+                    url: 'https://github.com/karthi228180/monitoring-stack.git'
             }
         }
 
