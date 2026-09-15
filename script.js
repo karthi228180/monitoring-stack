@@ -1,6 +1,6 @@
 // ⚠️ Replace this with YOUR API Gateway invoke URL after deploying (Step 7 of the guide)
 // It will look like: https://xxxxxxxxxx.execute-api.<region>.amazonaws.com/prod-deploy/register
-const API_URL = 'https://6znotfgkp0.execute-api.eu-central-1.amazonaws.com/prod/register';
+const API_URL = 'https://08av0tk1d7.execute-api.ap-south-1.amazonaws.com/prod/register';
 
 document.getElementById('registrationForm').addEventListener('submit', function (event) {
     event.preventDefault(); // Stop the browser's default form submission
